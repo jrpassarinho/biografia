@@ -3,5 +3,6 @@ git status
 git add .
 git commit -m 'mensagem' 
 git remote add origin https://github.com/jrpassarinho/biografia
-git push -u origin master
+git push -u origin master (enviar)
+git pull origin master (trazer)
 git checkout nome da brench
