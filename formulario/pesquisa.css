@@ -1,0 +1,27 @@
+h1 {
+
+	color: white;
+}
+
+p {
+
+	color: yellow;
+}
+
+#principal {
+
+	border: black solid;
+	margin: auto;
+	width: 960px;
+}
+
+#cabecalho {
+
+	background: grey;
+	padding: 10px;
+}
+
+#corpo {
+
+	width: 800px;
+}

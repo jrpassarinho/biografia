@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pesquisa eleitoral</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="pesquisa.css">
+</head>
+<body>
+
+	<div id="principal">
+		<div id="cabecalho">
+
+			<h1>Pesquisa Eleitoral - Líder da Sala</h1>
+			<p>Preencha os campos com seus dados para realizar a pesquisa.</p>
+
+		</div>
+
+			<div id="corpo">
+				<form method="" action="">
+		
+					<fieldset>
+					<legend>Dados pessoais</legend>
+					<label for="nome">Nome:</label>
+					<input type="text" id="nome" name="nome">
+					<br><br>
+
+					<label for="endereco">Endereço</label>
+					<input type="text" id="endereco" name="endereco">
+					<br><br>
+
+					<label for="idade">Idade:</label>
+					<input type="number" id="idade" name="idade" value="18" min="18" max="50">
+					<br><br>
+					</fieldset>
+
+					<fieldset>
+					<legend>Escolha seu candidato</legend>
+					<input type="checkbox" name="eu" value="eu"><label for="eu">Eu</label>
+					<input type="checkbox" name="tu" value="tu"><label for="tu">Tu</label>
+					<input type="checkbox" name="ele" value="ele"><label for="ele">Ele</label>
+					</fieldset>
+					<br>
+
+					<fieldset>
+						<legend>O que você acha sobre essa pesquisa?</legend>
+						<input type="radio" name="opniao" value="boa"><label></label>
+					</fieldset>
+
+				</form>
+				<br>
+			</div>
+</body>
+</html>
